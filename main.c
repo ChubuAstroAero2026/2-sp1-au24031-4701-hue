@@ -2,10 +2,10 @@
 
 int main()
 {
-  float a;
+  doble a;
   int b;
 
-  scanf("%f",&a);
+  scanf("%lf",&a);
  scanf("%f",&b);
 
 printf("%.*f\n", b,a);
