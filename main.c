@@ -2,13 +2,13 @@
 
 int main()
 {
-  doble a;
+  double a;
   int b;
 
   scanf("%lf",&a);
  scanf("%f",&b);
 
-printf("%.*f\n", b,a);
+printf("%.*f", b,a);
   
   return 0;
 }
